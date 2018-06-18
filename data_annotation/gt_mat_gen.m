@@ -1,6 +1,3 @@
-%Changes the resolution of image files to 1024*768 to make them compatible
-%with ShanghaiTech dataset part_B 
-
 %Generates ground truth .mat files for each image file using head
 %annotations
 
@@ -16,9 +13,7 @@ t = 0;                         %number of files initially in training set
 
 for i=1:n
     disp(i);
-    im = imread([read_path 'IMG_' num2str(t+i) '.jpg']);
-    %im = imresize(im, [300 300]);
-    %imwrite(im,[read_path 'IMG_' num2str(i+t) '.jpg'], 'jpg') 
+    im = imread([read_path 'IMG_' num2str(t+i) '.jpg']); 
     figure
     imshow(im)
     [x,y] = getpts;
