@@ -113,7 +113,7 @@ using provided feature files in 'data'(data/) folder.
 'result'(result/) folder contains the test images along with true count and predicted count. I have provided the result of training and testing the model using the mini dataset included in 'ShanghaiTech' folder.
 
 # Getting the people count in a raw image
-Go to 'raw'(raw/) folder. Place the raw images in 'image'(raw/images/) folder. Compile MatConvNet and run 'Prep.m'. Run 'predict.py',
+Go to 'raw'(raw/) folder. Place the raw images in 'images'(raw/images/) folder. Compile MatConvNet and run 'Prep.m'. Run 'predict.py',
 followed by 'Evaluate.m'. Results are stored in 'output'(raw/output/) folder. I have provided some results for reference.
 
 # Note
