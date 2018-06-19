@@ -72,8 +72,7 @@ Let's say we wish to add our training dataset to the ShanghaiTech part B trainin
 5. Ground truth .mat files are generated in 'ground-truth'(data_annotation/ground-truth/) folder. Transfer the contents of this folder to 'ShanghaiTech/part_B/train_data/ground-truth/' folder. Also, images are resized to 1024*768 as this is the resolution of ShanghaiTech
 part B images. You may change the desired resolution by changing appropriate parameters in the 'gt_mat_gen.m' file depending upon the model you're intending to use. Transfer the contents of 'images'(data_annotation/images/) folder to 'ShanghaiTech/part_B/train_data/images/' folder.
 
-Note - If you're trying to add your testing dataset to the ShanghaiTech part B testing dataset, follow the same steps keeping in mind 
-'ShanghaiTech/part_B/test_data/images/' instead of 'ShanghaiTech/part_B/train_data/images/' and 'ShanghaiTech/part_B/test_data/ground-truth/' instead of 'ShanghaiTech/part_B/train_data/ground-truth/'. Use t=0 if you're not using the ShanghaiTech dataset.
+Note - The script is configured for .jpg files. If you're trying to add your testing dataset to the ShanghaiTech part B testing dataset, follow the same steps keeping in mind 'ShanghaiTech/part_B/test_data/images/' instead of 'ShanghaiTech/part_B/train_data/images/' and 'ShanghaiTech/part_B/test_data/ground-truth/' instead of 'ShanghaiTech/part_B/train_data/ground-truth/'. Use t=0 if you're not using the ShanghaiTech dataset.
 
 
 # Feature Extraction
