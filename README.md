@@ -92,7 +92,7 @@ Note - The script is configured for .jpg files. If you're trying to add your tes
 
 
 # Training the model
-Run 'regress_SHT.py'. After training, model architecture and weights are saved in the 'model' folder. In addition, 'predictions_B_SHT.mat' file for test data is extracted in 'data'(data/) folder which is needed for testing and evaluating the model.
+Run 'regress_SHT.py'. After training, model architecture and weights are saved in the 'model'(model/) folder. In addition, 'predictions_B_SHT.mat' file for test data is extracted in 'data'(data/) folder which is needed for testing and evaluating the model.
 
 
 # Using the saved trained model for extracting prediction file
