@@ -29,7 +29,7 @@ The fully connected regress network is implemented using Keras with Tensorflow a
 Make sure you install and compile MatConvNet before proceeding further.
 
 
-# Getting Started 
+# Getting started 
 1. Compile the MRF code by running 'testMRF.m' in the 'MRF'(MRF/) folder. If the code doesn't compile, you probably have an installation issue that needs attention.
 
 2. If you wish, you may download the ShanghaiTech part B dataset using any of the following links:
@@ -47,7 +47,7 @@ used in the code implementation.
    Refer : http://www.vlfeat.org/matconvnet/pretrained/
 
 
-# Data Annotation
+# Data annotation
 I will demonstrate here how to annotate your own dataset and generate corresponding ground truth .mat files to make your data compatible 
 with standard crowd counting models for training and testing. The format of the files generated here is same as that of the annotated 
 ShanghaiTech dataset files. We desire that the dataset remains sequential. You may modify the steps according to your needs once you 
@@ -75,7 +75,7 @@ part B images. You may change the desired resolution by changing appropriate par
 Note - The script is configured for .jpg files. If you're trying to add your testing dataset to the ShanghaiTech part B testing dataset, follow the same steps keeping in mind 'ShanghaiTech/part_B/test_data/images/' instead of 'ShanghaiTech/part_B/train_data/images/' and 'ShanghaiTech/part_B/test_data/ground-truth/' instead of 'ShanghaiTech/part_B/train_data/ground-truth/'. Use t=0 if you're not using the ShanghaiTech dataset.
 
 
-# Feature Extraction
+# Feature extraction
 1. Open MATLAB and compile MatConvNet.
 
    Refer : http://www.vlfeat.org/matconvnet/install/
